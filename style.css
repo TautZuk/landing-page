@@ -1,11 +1,13 @@
 html {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: roboto, arial, helvetica, sans-serif;
 }
 *, *::before, *::after {
     box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -82,3 +84,36 @@ button {
     text-decoration: none;
     width: max-content;
 }
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em;
+    margin: 0 50px;
+    gap: 40px;
+}
+.info-title {
+    font-size: 36px;
+    font-weight: 1000;
+}
+.info-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.tile {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px
+}
+
+.tile-box {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    height: 200px;
+}
+
+
+
