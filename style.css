@@ -1,6 +1,84 @@
 html {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: roboto, arial, helvetica, sans-serif;
 }
 *, *::before, *::after {
     box-sizing: inherit;
+}
+
+
+
+.first-container {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10em 5em 10em;
+    gap: 4em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.first-container-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.left-box {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.left-box h1 {
+    font-size:48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+.left-box p {
+    font-size: 18px;
+}
+
+.right-box {
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content:center;
+    height: 300px;
+    width: 600px;
+    background-color: green;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    width: max-content;
 }
