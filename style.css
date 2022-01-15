@@ -114,3 +114,27 @@ button {
     border-radius: 10px;
     height: 200px;
 }
+
+
+.third-container {
+    display: flex;
+    background-color: #e5e7eb;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10em;
+    margin: 5em 10em;
+
+}
+
+.quote :nth-child(1) {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937
+}
+
+.quote :nth-child(2) {
+    align-self: flex-end;
+    font-weight: 1000;
+}
