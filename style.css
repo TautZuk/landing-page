@@ -186,3 +186,10 @@ a {
     font-size: 18px;
     margin: 0;
 }
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 3em 10em;
+    background-color: grey;
+}
